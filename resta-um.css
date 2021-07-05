@@ -1,0 +1,41 @@
+.container {
+    margin: auto;
+}
+
+.borda-tabuleiro {
+    height: 800px;
+    width: 800px;
+    margin: auto;
+}
+
+table {
+    padding-top: 50px;
+}
+
+tr {
+    height: 80px;
+}
+
+td {
+    background-color: lightgray;
+    width: 80px;
+}
+
+.peca {
+    border-radius: 100%;
+    background-color: blue;
+    width: 65;
+    height: 65px;
+}
+
+.selected {
+    border: 4px solid black;
+}
+
+.lugar-inacessivel {
+    background-color: #c3b7b7;
+}
+
+.card-footer {
+    background-color: transparent !important;
+}
